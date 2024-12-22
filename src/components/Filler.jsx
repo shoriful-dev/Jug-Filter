@@ -20,7 +20,7 @@ const Filler = () => {
     setFiller(decreased);
   }
   return (
-    <div>
+    <div className='bg-gray-200 h-screen flex flex-col justify-center items-center'>
       <Jug fillBy={filler} />
       <div className="flex justify-center items-center space-x-2 my-2">
         <button
