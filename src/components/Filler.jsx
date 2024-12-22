@@ -1,6 +1,6 @@
 // import React from 'react'
 import { FaMinus, FaPlus } from 'react-icons/fa';
-import Jug from '../components/jug';
+import Jug from '../components/Jug';
 import { useState } from 'react';
 
 const Filler = () => {
